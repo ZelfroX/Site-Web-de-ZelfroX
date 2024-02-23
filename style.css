@@ -452,12 +452,14 @@ overflow: hidden;
     color: black;
 }
 
+
+
 .ColorValueCube{
     background-color: black;
     width: 15px;
     height: 15px;
     position: absolute;
-    right: 80%;
+    right: 82%;
     border-radius: 5px;
 }
 
@@ -495,7 +497,8 @@ overflow: hidden;
     margin: 10px 5px 5px 5px;
     border-radius: 15px;
     border: none;
-    background: black
+    background: black;
+    cursor: pointer;
 }
 
 .ColorPallet .Row1 button:first-child {

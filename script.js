@@ -749,7 +749,9 @@ var ColorPalletBol = true
 var ColorValueText = document.querySelector(".ColorValueText")
 var ColorValueCube = document.querySelector(".ColorValueCube")
 var ColorValueBackground = document.querySelector(".ColorValueBackground")
+var HexaInput = document.querySelector("#HexaInput")
 
+var Row1 = document.querySelector("Row1")
 var Red = document.querySelector(".Red")
 var Orange = document.querySelector(".Orange")
 var Yellow = document.querySelector(".Yellow")
@@ -780,3 +782,416 @@ function OpenColorPallet () {
         ColorPalletBol = true
     }
 }
+
+//ColorButtonFunction
+
+Red.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'red'
+    Red.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'red'
+    ColorValueText.textContent = 'Red'
+    ColorValueCube.style.background = 'red'
+    HexaInput.value = ''
+
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+Orange.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'orange'
+    Orange.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'orange'
+    ColorValueText.textContent = 'Orange'
+    ColorValueCube.style.background = 'orange'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+Yellow.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'yellow'
+    Yellow.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'yellow'
+    ColorValueText.textContent = 'Yellow'
+    ColorValueCube.style.background = 'yellow'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+Lemon.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'rgb(187, 255, 0)'
+    Lemon.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'rgb(187, 255, 0)'
+    ColorValueText.textContent = 'Lemon'
+    ColorValueCube.style.background = 'rgb(187, 255, 0)'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+LightGreen.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'lightgreen'
+    LightGreen.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'lightgreen'
+    ColorValueText.textContent = 'L.Green'
+    ColorValueCube.style.background = 'rgb(187, 255, 0)'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+Green.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'darkgreen'
+    Green.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'green'
+    ColorValueText.textContent = 'D.Green'
+    ColorValueCube.style.background = 'green'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+Aqua.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'aqua'
+    Aqua.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'aqua'
+    ColorValueText.textContent = 'Aqua'
+    ColorValueCube.style.background = 'aqua'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+Turquoise.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'turquoise'
+    Turquoise.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'turquoise'
+    ColorValueText.textContent = 'Turqu.'
+    ColorValueCube.style.background = 'turquoise'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+Blue.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'blue'
+    Blue.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'blue'
+    ColorValueText.textContent = 'Blue'
+    ColorValueCube.style.background = 'blue'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+Purple.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'purple'
+    Purple.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'purple'
+    ColorValueText.textContent = 'Purple'
+    ColorValueCube.style.background = 'purple'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+Pink.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'rgb(255, 0, 200)'
+    Pink.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'rgb(255, 0, 200)'
+    ColorValueText.textContent = 'Pink'
+    ColorValueCube.style.background = 'rgb(255, 0, 200)'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+White.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'white'
+    White.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'white'
+    ColorValueText.textContent = 'White'
+    ColorValueCube.style.background = 'white'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+LightGray.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'lightgray'
+    LightGray.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'lightgray'
+    ColorValueText.textContent = 'L.Gray'
+    ColorValueCube.style.background = 'lightgray'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+DarkGray.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'darkgray'
+    DarkGray.style.outline = 'black solid 2px'
+    ColorValueText.style.color = 'gray'
+    ColorValueText.textContent = 'D.Gray'
+    ColorValueCube.style.background = 'darkgray'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    Black.style.outline = 'none'
+})
+
+Black.addEventListener("click", () => {
+    TextToGrowUp.style.color = 'black'
+    Black.style.outline = 'darkgray 2px solid'
+    ColorValueText.style.color = 'black'
+    ColorValueText.textContent = 'Black'
+    ColorValueCube.style.background = 'black'
+    HexaInput.value = ''
+
+    Red.style.outline = 'none'
+    Orange.style.outline = 'none'
+    Yellow.style.outline = 'none'
+    Lemon.style.outline = 'none'
+    LightGreen.style.outline = 'none'
+    Green.style.outline = 'none'
+    Aqua.style.outline = 'none'
+    Turquoise.style.outline = 'none'
+    Blue.style.outline = 'none'
+    Purple.style.outline = 'none'
+    Pink.style.outline = 'none'
+    White.style.outline = 'none'
+    LightGray.style.outline = 'none'
+    DarkGray.style.outline = 'none'
+})
+
+HexaInput.addEventListener("input", () =>{
+    var GetColorValueText = HexaInput.value
+    if (GetColorValueText[0] == '#') {
+        if (GetColorValueText.length == 7) {
+            ColorValueCube.style.background = `${GetColorValueText}`
+            ColorValueText.style.color = `${GetColorValueText}`
+            ColorValueText.textContent = `${GetColorValueText}`
+            TextToGrowUp.style.color = `${GetColorValueText}`
+
+            Red.style.outline = 'none'
+            Orange.style.outline = 'none'
+            Yellow.style.outline = 'none'
+            Lemon.style.outline = 'none'
+            LightGreen.style.outline = 'none'
+            Green.style.outline = 'none'
+            Aqua.style.outline = 'none'
+            Turquoise.style.outline = 'none'
+            Blue.style.outline = 'none'
+            Purple.style.outline = 'none'
+            Pink.style.outline = 'none'
+            White.style.outline = 'none'
+            LightGray.style.outline = 'none'
+            DarkGray.style.outline = 'none'
+            Black.style.outline = 'none'
+        }        
+    }
+    else {
+        if (GetColorValueText.length == 6) {
+            ColorValueCube.style.background = `#${GetColorValueText}`
+            ColorValueText.style.color = `#${GetColorValueText}`
+            ColorValueText.textContent = `#${GetColorValueText}`
+            TextToGrowUp.style.color = `#${GetColorValueText}`
+            
+            Red.style.outline = 'none'
+            Orange.style.outline = 'none'
+            Yellow.style.outline = 'none'
+            Lemon.style.outline = 'none'
+            LightGreen.style.outline = 'none'
+            Green.style.outline = 'none'
+            Aqua.style.outline = 'none'
+            Turquoise.style.outline = 'none'
+            Blue.style.outline = 'none'
+            Purple.style.outline = 'none'
+            Pink.style.outline = 'none'
+            White.style.outline = 'none'
+            LightGray.style.outline = 'none'
+            DarkGray.style.outline = 'none'
+            Black.style.outline = 'none'
+        }   
+    }
+})
