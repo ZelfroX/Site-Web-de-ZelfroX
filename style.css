@@ -69,7 +69,7 @@ overflow: hidden;
 .SettingContainer{
     background: linear-gradient(antiquewhite, rgb(214, 186, 148));
     width: 310px;
-    height: 1000px;
+    height: 950px;
     overflow: scroll;
     padding: 5px;
     border: solid rgba(185, 123, 46, 0.25) 3px;
@@ -605,7 +605,7 @@ overflow: hidden;
     display: flex;
     width: 100%;
     height: 50px;
-    background-color: rgba(175, 175, 57, 1);
+    background-color: rgba(223, 202, 172, 1);
     justify-content: center;
     align-items: center;
     bottom: 0px;
